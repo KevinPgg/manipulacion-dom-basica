@@ -1,0 +1,61 @@
+#btnContador{
+    width: 80px;
+    height: 75px;
+    background-color: darkred;
+    
+    border-radius: 70% 70% 70% 70%;
+    border: 2px dotted rgb(255, 255, 255);
+    transition-duration: 0.4s;
+
+}
+#btnContador:hover{
+    background-color: rgb(197, 89, 89);
+}
+#btnContador:active{
+    background-color: rgba(139, 0, 0, 0.904);
+}
+
+
+
+#contBotones{
+    border: 2px dotted rgb(214, 110, 110);
+    padding: 20px 20px 20px 20px; 
+}
+
+#contadorContenedor{
+    border: 2px dotted rgb(203, 64, 64);
+    padding: 20px 20px 20px 20px;
+    
+}
+#contadores{
+    text-align: center;
+    border:1px dotted black;
+    padding: 20px 20px 20px 20px; 
+}
+
+#ruedaClick{
+    font-size: 50px;
+    
+}
+#rueda{
+    font-size: 50px;
+    
+}
+
+#cursor{
+    font-size: 50px;
+    /*position: fixed;*/
+   
+}
+
+#click{
+    font-size: 50px;
+    color:blueviolet;
+    position: relative;
+    align-self: center;
+    
+}
+#click:focus{
+    text-shadow: aquamarine;
+    color: aquamarine;
+}
